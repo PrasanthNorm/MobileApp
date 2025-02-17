@@ -19,29 +19,29 @@ namespace SecureToDoApp.Repositories
         }
 
         public async Task<List<TodoItem>> GetAllTasksAsync() =>
-            await _context.Todos.ToListAsync();
+            await _context.TodoItems.ToListAsync();
 
         public async Task<TodoItem> GetTaskByIdAsync(int id) =>
-            await _context.Todos.FindAsync(id);
+            await _context.TodoItems.FindAsync(id);
 
         public async Task AddTaskAsync(TodoItem task)
         {
-            _context.Todos.Add(task);
+            _context.TodoItems.Add(task);
             await _context.SaveChangesAsync();
         }
 
         public async Task UpdateTaskAsync(TodoItem task)
         {
-            _context.Todos.Update(task);
+            _context.TodoItems.Update(task);
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteTaskAsync(int id)
         {
-            var task = await _context.Todos.FindAsync(id);
+            var task = await _context.TodoItems.FindAsync(id);
             if (task != null)
             {
-                _context.Todos.Remove(task);
+                _context.TodoItems.Remove(task);
                 await _context.SaveChangesAsync();
             }
         }

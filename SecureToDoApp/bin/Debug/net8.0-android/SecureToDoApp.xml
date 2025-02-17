@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SecureToDoApp</name>
+    </assembly>
+    <members>
+        <member name="T:SecureToDoApp.ViewModel.TodoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SecureToDoApp.ViewModel.TodoViewModel.Title">
+            <inheritdoc cref="F:SecureToDoApp.ViewModel.TodoViewModel.title"/>
+        </member>
+        <member name="P:SecureToDoApp.ViewModel.TodoViewModel.Description">
+            <inheritdoc cref="F:SecureToDoApp.ViewModel.TodoViewModel.description"/>
+        </member>
+        <member name="F:SecureToDoApp.ViewModel.TodoViewModel.loadTasksCommand">
+            <summary>The backing field for <see cref="P:SecureToDoApp.ViewModel.TodoViewModel.LoadTasksCommand"/>.</summary>
+        </member>
+        <member name="P:SecureToDoApp.ViewModel.TodoViewModel.LoadTasksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SecureToDoApp.ViewModel.TodoViewModel.LoadTasks"/>.</summary>
+        </member>
+        <member name="F:SecureToDoApp.ViewModel.TodoViewModel.addTaskCommand">
+            <summary>The backing field for <see cref="P:SecureToDoApp.ViewModel.TodoViewModel.AddTaskCommand"/>.</summary>
+        </member>
+        <member name="P:SecureToDoApp.ViewModel.TodoViewModel.AddTaskCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SecureToDoApp.ViewModel.TodoViewModel.AddTask"/>.</summary>
+        </member>
+        <member name="F:SecureToDoApp.ViewModel.TodoViewModel.deleteTaskCommand">
+            <summary>The backing field for <see cref="P:SecureToDoApp.ViewModel.TodoViewModel.DeleteTaskCommand"/>.</summary>
+        </member>
+        <member name="P:SecureToDoApp.ViewModel.TodoViewModel.DeleteTaskCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:SecureToDoApp.ViewModel.TodoViewModel.DeleteTask(SecureToDoApp.Model.TodoItem)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+    </members>
+</doc>

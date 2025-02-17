@@ -9,6 +9,6 @@ namespace TodoSecureApp.Data
         {
         }
 
-        public DbSet<TodoItem> Todos { get; set; }
+        public DbSet<TodoItem> TodoItems { get; set; }
     }
 }
