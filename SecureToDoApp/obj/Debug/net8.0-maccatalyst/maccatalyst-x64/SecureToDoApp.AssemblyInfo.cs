@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecureToDoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+25d72d676ac8a51405e0b7b4d3dedf8d03c0190f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecureToDoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecureToDoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
